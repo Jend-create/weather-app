@@ -1,0 +1,33 @@
+* {margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+
+  }
+
+  header {background: rgb(195, 215, 252);
+
+  }
+
+.App {
+  background-color: transparent;
+ 
+}
+.container{
+  background-image: url(./components/images/weatherimg.jpg);
+  text-align: center;
+  columns: auto;}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+

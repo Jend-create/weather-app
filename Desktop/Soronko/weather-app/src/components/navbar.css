@@ -1,0 +1,25 @@
+
+nav {nav-up: auto;
+    background-image:url(./images/weath.jpg)  ;
+    text-align: justify;
+    height: 80px;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+.nav-item {display: inline-block;
+  
+    padding: 15px 40px;
+    font-size: 20px;
+    font-style: oblique;
+    text-decoration-color: wheat;
+    width: fit-content;
+    text-align-last: right;
+    cursor: pointer;
+}
+.nav-link {color:#fff;
+    font-size: 2rem;
+    display: flex;
+
+    cursor: pointer;
+
+}

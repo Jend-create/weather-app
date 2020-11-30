@@ -1,0 +1,12 @@
+
+
+.column{
+    background-image: url(./images/weat.jpg);
+    text-align: center;
+    columns: auto; background-size: cover;
+    height: 100vh;
+    text-emphasis-color: white;
+    font-display: white;
+    color:#fff;
+}
+    
