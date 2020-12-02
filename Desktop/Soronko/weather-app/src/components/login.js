@@ -1,7 +1,8 @@
-import React, {useState} from 'react'
+import React from 'react'
+import useSessionStorage from './useSessionStorage'
 
 function Login() {
-    const [name, setName] = useState('')
+    const [name, setName] = useSessionStorage('name', 'Jessy')
 
     const handleName = (e)=> {
         setName(e.target.value)

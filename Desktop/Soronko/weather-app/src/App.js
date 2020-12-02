@@ -12,7 +12,7 @@ function App() {
     <Router>
      <Navbar/> 
      <Switch>
-       <Route exact path='/' component={Weather}/>      
+       <Route exact path='/' component={Weather}/>    
        <Route path='/signup' component={signup}/>
        <Route path='/login' component={login}/>
        </Switch>     
