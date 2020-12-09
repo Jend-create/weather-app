@@ -10,10 +10,10 @@ function Signup() {
 
     return (
         <div className= 'column'>
-            <from>
+            
             <h1> New User, Please Signup!</h1>
             <br/><br/>
-            <br/>
+            <form className="section-center">
             <label>Username:</label><br/>
                 <input type="text" onChange={handleName}/><br></br>
 
@@ -24,7 +24,7 @@ function Signup() {
                 <button className = 'button'>
                     submit
                 </button>
-            </from>
+            </form>
             
         </div>
     )

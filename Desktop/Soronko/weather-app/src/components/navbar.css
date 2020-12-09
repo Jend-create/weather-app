@@ -6,6 +6,12 @@ nav {nav-up: auto;
     font-weight: 700;
     font-family: sans-serif;
 }
+.nav-brand{color: black;
+    font-style: oblique;
+
+
+
+}
 .nav-item {display: inline-block;
   
     padding: 15px 40px;
@@ -17,7 +23,7 @@ nav {nav-up: auto;
     cursor: pointer;
 }
 .nav-link {color:#fff;
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
 
     cursor: pointer;
